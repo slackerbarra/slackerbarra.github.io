@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+/*font-family: 'Anton', sans-serif;*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.viewport-container {
+  width: 80vw;
+  display: inline;
+  position: absolute;
+  right: 0;
+}
+.sidebar-viewport {
+  width: 19vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+}
+.my-nav {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+.my-btn {
+  padding: 10px;
+
+}
+.margin-fix {
+  margin-top: 50px;
+}
+.pill-btn {
+  border-radius: 20px;
+  background-color: yellow;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+.name {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 2.4em;
+  color: green;
+  text-shadow: 2px 2px #ffff00;
+
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgba(8, 8, 8, 0.6);
+}
+.fa-logo {
+  font-size:3em;
+  color: yellow;
+
+}
+.social-media {
+  margin-top: 300px;
+  margin-left: 15%;
+}
+.carousel-flex {
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 450px;
+}
+
+.carousel-sierras-downtown-img {
+  background-image: url("../img/sierras-downtown.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.item.carousel-sierras-downtown-img img {
+  height: 250px;
+  margin: 100px 0;
+}
+
+.carousel-img-two {
+  background-image: url("../img/sierras-west-park.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-img-three {
+  background-image: url("../img/sierras-east.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-caption {
+  margin-bottom: 45px;
+
+}
+button.btn-warning {
+    background-color: #4000ff;
+    border-color: #F8512F;
+}
+
+.hover-this: hover {
+  background-color: #4000ff;
+  border-color: #D34326;
+}
+
+/*Our Story*/
+.pacifico-text {
+    font-family: 'Pacifico', cursive;
+    color: blue;
+    font-size: 75px;
+}
+.the-theme {
+    font-family: 'Playfair Display', serif;
+    color: yellow;
+    font-size: 50px;
+
+}
+.lorem {
+    font-family: 'Plafair Display', serif;
+    font-size: 25px;
+
+}
+
+/*Review*/
+#review {
+    background-image: url('../img/st-jude-rainbow.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 450px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    height: 450px
+}
+.fresno-bee {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.fresno-bee h1 {
+    font-family: 'Pacifico', cursive;
+    color: blue;
+    text-shadow: 1px 1px 2px #333;
+    font-size: 60px;
+}
+
+.fresno-bee p {
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    text shadow: 1px 1px 2px #333;
+    font-weight: 300;
+}
+
+/*Menu Styles*/
+#menu{
+  background-image: url('../img/black_linen.png');
+  height:  600px;
+
+}
+
+#menu h1 {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  font-size: 5em;
+}
+.food {
+  background-color: #fff;
+  max-height: 425px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu a {
+  color: #F8512F;
+  text-transform: uppercase;
+}
+.dragonfly {
+  height: 250px;
+  width: 270px;
+}
+.design-bouquet {
+  height: 250px;
+  width: 290px;
+}
+.e-mail {
+  height: 250px;
+  width: 270px;
+}
+.maintenance  {
+  height: 270px;
+  width: 270px;
+}
+
+.nav-tabs.nav-justified>.active>a:hover {
+  background-color: rgba(225, 225, 225, 0.2);
+  border-color: transparent;
+}
+#contact {
+  margin-bottom: 100px
+}
