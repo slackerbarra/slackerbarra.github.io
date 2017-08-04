@@ -166,7 +166,7 @@ button.btn-warning {
 /*Menu Styles*/
 #menu{
   background-image: url('../img/black_linen.png');
-  height:  600px;
+  min-height:  600px;
 
 }
 
